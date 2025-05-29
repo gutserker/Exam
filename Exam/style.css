@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.navbar {
+  background-color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.navbar nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar .btn {
+  background-color: #e63946;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 4px;
+}
+
+.hero {
+  background-image: url(./img/image\ 4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 60px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero h1 {
+  font-size: 26px;
+  max-width: 500px;
+}
+
+.hero .btn {
+  margin-top: 20px;
+  background: #e63946;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.doctor-img {
+  width: 200px;
+  margin-left: 40px;
+}
+
+.services {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.service-box {
+  max-width: 800px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-align: left;
+}
+
+.service-box img {
+  width: 150px;
+  border-radius: 8px;
+}
+
+.service-box.highlighted {
+  border: 2px solid #f1c40f;
+  padding: 15px;
+}
+
+.contact {
+  background: #0EB4C1;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.contact iframe {
+  width: 300px;
+  height: 200px;
+  border: none;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.contact input,
+.contact textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+.contact button {
+  background: #2ecc71;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
